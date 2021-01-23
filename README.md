@@ -1,3 +1,5 @@
+Deployed at: https://gsonnier333.github.io/password-generator/
+
 ![Generated password using all four criteria](/Assets/generated-screen.PNG)
 
 With this assignment, I wrote code in JavaScript to randomly generate a password from a number of chosen criteria, including the length of the password and whether to include lower case letters, upper case letters, numbers, and/or special characters. With it, the user can click on the "Generate Password" button on the page to be asked what their criteria are for the final result. They're first asked how long it should be, then are given four confirmation popups for which characters they'd like to include. After they've made their selections, they are given a randomly generated string of characters they can use as a password that matches all of the chosen criteria. If they enter an invalid number for the length of the password or fail to select any of the criteria, they will be given an error message and instructed to try again.
