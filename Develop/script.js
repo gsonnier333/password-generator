@@ -1,6 +1,6 @@
 /*
 
-  TODO: force the final password to include every selected character type at least once to avoid edge cases, write up README, move files into the root directory instead of Develop
+  TODO: write up README, move files into the root directory instead of Develop
 
 
 */
@@ -12,7 +12,7 @@ var numCriteria = 0; //number of criteria being used
 const lower = "abcdefghijklmnopqrstuvwxyz";
 const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numbers = "1234567890";
-const special = "`~!@#$%^&*()-_=+\\|/?'\",<.>[{]}:;"
+const special = "`~!@#$%^&*()-_=+\\|/?'\",<.>[{]}:;";
 
 function generatePassword(){
   numCriteria=0; //reset this counter to avoid issues on repeat password generations
@@ -70,7 +70,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button
